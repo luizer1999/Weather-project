@@ -33,7 +33,7 @@ let apiResponse;
 function displayImage() {
   let image;
   let currentTemp = Math.round(apiResponse.data.current.temp_c);
-  if (currentTemp < 15) {
+  if (currentTemp < 14) {
     image = "cold-temp";
   } else if (currentTemp > 27) {
     image = "hot-temp";
